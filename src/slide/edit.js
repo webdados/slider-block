@@ -42,6 +42,7 @@ export default function Edit({ attributes, setAttributes, context }) {
 		'core/paragraph',
 		'core/separator',
 		'core/table',
+		'core/quote',
 	]);
 
 	const blockProps = useBlockProps({ className: 'swiper-slide' });
